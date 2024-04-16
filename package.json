@@ -1,0 +1,23 @@
+{
+  "name": "sample-nodejs-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Divya9828/sample-nodejs-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Divya9828/sample-nodejs-app/issues"
+  },
+  "homepage": "https://github.com/Divya9828/sample-nodejs-app#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
