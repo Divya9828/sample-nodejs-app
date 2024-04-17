@@ -1,8 +1,11 @@
-var exp=require('express');
-var use=exp();
+var exp = require("express");
+var use = exp();
+const port = 3000;
 
-use.get('/',(req,res)=>{
-    res.json("Iam Nodejs User")
-})
+use.get("/", (req, res) => {
+  res.json("Iam Nodejs User");
+});
 
-use.listen(3000);
+use.listen(port, () => {
+  console.log(`Example app listening on port ${port}`);
+});
